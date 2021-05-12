@@ -28,4 +28,4 @@ Takes a list of strings to find, a string to be transformed by replacement, and 
    * `replace/spec/redact-spec.ts` for `replace.ts` unit tests
 
 ## ./test
-Is a script to run all unit and integration tests. Run by `cd test` then `npm run start`. 
+Is a script to build all services then, run all unit and integration tests. Run by `cd test` then `npm run start`. 
