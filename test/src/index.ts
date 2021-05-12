@@ -61,7 +61,6 @@ console.log(replaceBuffer.toString());
 
 // Start up the set of services
 console.log(magenta);
-
 console.log("Starting services...");
 
 const parseServicePromise = new Promise((resolve, reject) => {
