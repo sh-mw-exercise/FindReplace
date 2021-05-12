@@ -28,7 +28,7 @@ console.log(process.cwd());
 const replaceBuildBuffer = execSync("npm run build");
 console.log(replaceBuildBuffer.toString());
 
-// Spin up process for second build
+// Spin up process for third build
 console.log(cyan)
 console.log("Build App Redact");
 console.log(white)
