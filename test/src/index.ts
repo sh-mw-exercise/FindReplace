@@ -6,6 +6,37 @@ const magenta = "\u001b[35m";
 const cyan = "\u001b[36m";
 const white = "\u001b[37m";
 
+// Build Services
+console.log(magenta);
+console.log("Build Services");
+
+// Spin up process for first build
+console.log(cyan)
+console.log("Build Parser");
+console.log(white)
+process.chdir("../parse");
+console.log(process.cwd());
+const parserBuildBuffer = execSync("npm run build");
+console.log(parserBuildBuffer.toString());
+
+// Spin up process for second build
+console.log(cyan)
+console.log("Build Replace");
+console.log(white)
+process.chdir("../replace");
+console.log(process.cwd());
+const replaceBuildBuffer = execSync("npm run build");
+console.log(replaceBuildBuffer.toString());
+
+// Spin up process for second build
+console.log(cyan)
+console.log("Build App Redact");
+console.log(white)
+process.chdir("../app");
+console.log(process.cwd());
+const redactBuildBuffer = execSync("npm run build");
+console.log(redactBuildBuffer.toString());
+
 // Running Unit Tests
 console.log(magenta);
 console.log("Running Unit Tests");
