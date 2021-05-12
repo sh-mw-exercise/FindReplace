@@ -4,6 +4,7 @@ This is an exercise to do find-replace.
 Dependencies are:
    * GitBash if you are on Windows to run `init.sh`
    * Node
+   * npm
 
 To initialize either run `bash init.sh` *or* change directory into each of the subdirectories and run `npm i`:
    * app
