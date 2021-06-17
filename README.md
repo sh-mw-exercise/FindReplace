@@ -30,3 +30,4 @@ Takes a list of strings to find, a string to be transformed by replacement, and 
 
 ## ./test
 Is a script to build all services then, run all unit and integration tests. Run by `cd test` then `npm run start`. 
+
